@@ -68,7 +68,25 @@ main {
 }
 
 section {
-    background-color: #d5d8dc;
-    height: 100%;
+    background-color: #dbf8928e;
+    height: 100vh;
     width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    height: 60%;
+    width: 70%;
+    border: #5ec613 solid 2px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fieldset {
+    width: 100%;
 }
