@@ -2,6 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 body {
@@ -88,12 +94,3 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-.grid-container {
-    width: 90%;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 20px;
-    height: 400px;
-    justify-items: center;
-  }
